@@ -18,7 +18,7 @@ The interface to the checkout could look like:
 ``` csharp
 interface ICheckout
 {
-    void Scan(string item);
+    void Scan(string sku);
     int GetTotalPrice();
 }
 ```
